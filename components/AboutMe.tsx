@@ -22,11 +22,11 @@ const AboutMe = () => {
             <p>Currently a frontend software engineer at Skilljar 🍳</p>
             <p>
               I have 3+ years experience developing delightful user experiences, building UI component libraries,
-              enhancing accessibility, and much more. While I consider myself framework-agnostic, I'm familiar with
-              React, Vue, HTML, CSS/SCSS, and Javascript/Typescript. I'm always excited to add to my toolkit.
+              enhancing accessibility, and much more. While I consider myself framework-agnostic, I&apos;m familiar with
+              React, Vue, HTML, CSS/SCSS, and Javascript/Typescript. I&apos;m always excited to add to my toolkit.
             </p>
             <p>
-              When I'm not coding, I love to explore new coffee shops ☕, get my run on 🏃, lift weights 🏋️, or play cozy
+              When I&apos;m not coding, I love to explore new coffee shops ☕, get my run on 🏃, lift weights 🏋️, or play cozy
               video games 🎮.
             </p>
           </div>
