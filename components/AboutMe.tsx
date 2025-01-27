@@ -18,7 +18,7 @@ const AboutMe = () => {
             About Me
           </h2>
           <div className="space-y-4 text-gray-700">
-            <p className="text-xl font-semibold">Hi, I'm Peter!</p>
+            <p className="text-xl font-semibold">Hi, I&apos;m Peter!</p>
             <p>Currently a frontend software engineer at Skilljar 🍳</p>
             <p>
               I have 3+ years experience developing delightful user experiences, building UI component libraries,
