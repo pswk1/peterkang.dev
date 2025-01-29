@@ -5,6 +5,7 @@ const experiences = [
   {
     title: "Software Engineer, Frontend",
     company: "Skilljar",
+    companyUrl: "https://www.skilljar.com",
     period: "April 2022 – Present",
     location: "Seattle, WA (Remote)",
     achievements: [
@@ -47,7 +48,16 @@ const Experience = () => {
               className="bg-gray-100 rounded-lg p-6 shadow-md"
             >
               <h3 className="text-2xl font-semibold mb-2 font-poppins text-gray-800">{exp.title}</h3>
-              <p className="text-gray-600 mb-2 font-medium">{exp.company}</p>
+              
+              <p className="text-gray-600 mb-2 font-medium">
+                {exp.companyUrl ? (
+                  <a href={exp.companyUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    {exp.company}
+                  </a>
+                ) : (
+                  exp.company
+                )}
+              </p>
               <p className="text-sm mb-4 text-gray-500">
                 <span className="sr-only">Period:</span> {exp.period} | <span className="sr-only">Location:</span>{" "}
                 {exp.location}
